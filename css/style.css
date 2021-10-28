@@ -78,6 +78,12 @@ a{
     gap: 0.75rem;
     justify-content: center;
     align-items: center;
+    transform: translateY(0);
+    transition: .5s;
+}
+
+a:hover{
+    transform: translateY(-0.5rem);
 }
 
 p{
